@@ -1,0 +1,47 @@
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family:'Lato', sans-serif;
+  
+  
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-style{
+    color:black;
+    font-size: 45px;
+    font-width:800px;
+}
+.text-primary{
+    color:darkorange;
+}
+
+.btn-primary{
+    background-color: darkorange;
+    border-radius: 5px;
+    color:white;
+    font-style: normal;
+    font-weight:700px;
+    border:none;
+    padding:18px 35px;
+}
+
+nav > ul{
+    display:flex;
+    list-style: none;  
+    align-items:center; 
+   
+}
+
+nav li{
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#474747;
+}
